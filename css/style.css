@@ -1,0 +1,456 @@
+/*Start framework*/
+
+.container{
+	width: 1200px;
+	margin: auto;
+}
+.text-center{
+	text-align: center;
+}
+.clearfix{
+	clear: both;
+}
+.main-color{
+	color: #f7600e
+}
+.upper{
+	text-transform: uppercase;
+}
+.table{
+	display: table;
+	height: 100%;
+}
+
+/*End framework*/
+/*Start header*/
+
+header{
+	background: url('../images/photo.jpg') no-repeat;
+	background-size: cover;
+	color: #eee;
+}
+header .overlay{
+	background: rgba(70, 70, 70, .7);
+	height: 100%;
+	width: 100%;
+}
+header .overlay .container{
+	overflow: hidden;
+	position: relative;
+}
+header nav{
+	padding-top: 20px;
+	position: absolute;
+	width: 100%;
+}
+header nav .brand{
+	float: left;
+}
+header nav span{
+	float: right;
+}
+header nav span i{
+	padding-left: 5px;
+}
+header .content{
+	display: table-cell;
+	height: 100%;
+	vertical-align: middle;
+}
+header .content h1{
+	font-weight: 800;
+	font-size: 50px;
+	margin-bottom: 0px;
+	font-weight: 800;
+	margin-top: 0px;
+}
+header .content p{
+	line-height: 25px;
+	margin-top: 10px;
+}
+header .content .buttons{
+	margin-top: 40px;
+}
+header .content .buttons button{
+	background: transparent;
+	border: 1px solid #aaa;
+	border-radius: 5px;
+	padding: 8px;
+	width: 140px;
+	color: #FFF;
+	margin: 10px;
+	transition: all .5s;
+}
+header .content .buttons button:hover{
+	background-color: #f7600e;
+	border-color: #f7600e;
+}
+header .arrow{
+	position: absolute;
+	bottom: 25px;
+	border: 1px solid #FFF;
+	border-radius: 50%;
+	padding: 5px;
+	cursor: pointer;
+	transition: all .5s;
+}
+header .arrow:hover{
+	background-color: #f7600e;
+	border-color: #f7600e;	
+}
+
+/*End header*/
+/*Start works*/
+
+.works{
+	padding: 60px;
+}
+.works .box{
+	float: left;
+	width: 25%;
+}
+.works i{
+	color: #f7600e;
+	font-size: 40px;
+	font-weight: normal;
+	border: 1px solid #bbb;
+	border-radius: 50%;
+	margin-bottom: 20px;
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+}
+.works h3{
+	color: #555;
+}
+.works p{
+	padding: 0 40px;
+}
+
+/*End works*/
+/*Start subscribe*/
+
+.sub{
+	background: url('../images/header2.png');
+	overflow: hidden;
+}
+.sub .overlay{
+	background: rgba(70, 70, 70, .7);
+	width: 100%;
+	padding: 100px 0;
+}
+.sub .content input{
+	border: 1px solid #FFF;
+	border-radius: 8px;
+	outline: none;
+	padding-left: 15px;
+	height: 35px;
+	line-height: 35px;
+	width: 350px;
+	color: #777;
+	margin-right: 18px;
+}
+.sub .content button{
+	height: 39px;
+	background-color: #f7600e;
+	border: 1px solid #f7600e;
+	border-radius: 8px;
+	width: 200px;
+	color: #FFF;
+	outline: none;
+}
+/*End subscribe*/
+/*Start port*/
+
+.port{
+	padding: 60px;
+}
+.port h2{
+	color: #555;
+}
+.port .container > p{
+	width: 450px;
+	margin: auto;
+	color: #666;
+	line-height: 30px;
+}
+.port .content {
+	margin: 60px;
+}
+.port .content .box{
+	float: left;
+	width: 31.33%;
+	height: 300px;
+	margin: 1%;
+	border-radius: 15px;
+	color: #ccc;
+	position: relative;
+	transition: all .5s ease-in-out;
+}
+.port .content .box .overlay{
+	position: absolute;
+	height: 100%;
+	background: rgba(255, 96, 14, .85);
+	border-radius: 15px;
+	transition: all .5s ease-in-out;
+	display: none;
+}
+.port .content .box:hover .overlay {
+	display: block;
+}
+.port .content .box .overlay h3{
+	margin: 60px auto 30px;
+}
+.port .content .box .overlay p{
+	width: 70%;
+	margin: 20px auto 50px;
+}
+.port .content .box .overlay button{
+	background: #FFF;
+	width: 50%;
+	padding: 10px;
+	color: #f7600e;
+	border: 1px solid #FFF;
+	border-radius: 10px;
+}
+.port .content .box img{
+	height: 100%;
+	width: 100%;
+	border-radius: 15px;
+}
+.port .container > button{
+	padding: 8px;
+	width: 180px;
+	color: #555;
+	border: 1px solid #bbb;
+	border-radius: 5px;
+	background: transparent;
+}
+/*End port*/
+/*Start test*/
+
+.test{
+	background: url('../images/header3.png');
+	height: 400px;
+	color: #FFF;
+}
+.test p{
+	font-size: 25px;
+}
+.test .overlay{
+	background: rgba(70, 70, 70, .7);
+	height: 100%;
+}
+.test .container{
+	position: relative;
+}
+.text .slider{
+}
+.test .bx-wrapper{
+	box-shadow: none;
+	background: none;
+	border: none;
+	padding-top: 100px;
+}
+.text .slider li{
+	padding-top: -150px
+}
+.test .slider img{
+	border-radius: 50%;
+	display: block;
+	margin: auto;
+	height: 100px;
+	width: 100px;
+}
+.test .bx-controls-direction a{
+	top: 75%;
+}
+/*End test*/
+/*Start team*/
+
+.team{
+	padding: 60px 0;
+}
+.team h2{
+	color: #444;
+}
+.team p{
+	line-height: 20px;
+	color: #999;
+	margin-bottom: 60px;
+	transition: all .5s ease-in-out;
+}
+.team ul{
+	list-style: none;
+}
+.team li{
+	width: 18%;
+	margin-right: 6.33%;
+	float: left;
+	min-height: 420px;
+}
+.team li:last-child{
+	margin-right: 0%;
+}
+.team li img{
+	width: 100%;
+	height: 200px;
+	filter: grayscale(1);
+	border-radius: 10px 10px 0px 0px;
+	transition: all .5s ease-in-out;
+}
+.team li h3{
+	color: #999;
+	transition: all .5s ease-in-out;
+}
+.team li i{
+	display: inline-block;
+	background: #BBB;
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	line-height: 30px;
+	transition: all .5s ease-in-out;
+}
+.team li:hover img{
+	filter: grayscale(0);
+	transform: scale(1.1,1.1);
+	border-bottom: 5px solid #f7600e;
+}
+.team li:hover h3{
+	color: #555;
+}
+.team li:hover i.fa-facebook{
+	background-color: #3b5998;
+}
+.team li:hover i.fa-twitter{
+	background-color: #1da1f2;
+}
+.team li:hover i.fa-google-plus{
+	background-color: #dd4b39;
+}
+.team li:hover p{
+	color: #555;
+}
+.team .bullets span{
+	background: #BBB;
+	height: 12px;
+	width: 12px;
+	margin-right: 5px;
+	border-radius: 50%;
+	display: inline-block;
+	transition: all .5s ease-in-out;
+}
+/*End team*/
+/*Start contact*/
+
+.contact{
+	background: url('../images/header3.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.contact .overlay{
+	height: 100%;
+	width: 100%;
+	background: rgba(70, 70, 70, .7);
+	padding: 70px 0;
+}
+.contact h2{
+	color: white;
+
+}
+.contact p{
+	line-height: 20px;
+	color: #ccc;
+	padding-bottom: 60px;
+}
+.contact .content{
+	width: 60%;
+	margin: auto;
+}
+.contact .form{
+	text-align: left;
+}
+.contact input{
+	width: 47.6%;
+	height: 40px;
+	box-sizing: border-box;
+	border-radius: 8px;
+	outline: none;
+	padding-left: 10px;
+	margin: 0 0 20px 0;
+}
+.contact input:first-child{
+	margin-right: 4%;
+}
+.contact textarea{
+	height: 180px;
+	box-sizing: border-box;
+	width: 100%;
+	resize: none;
+	border-radius: 8px;
+	padding-left: 10px;
+	outline: none;
+	padding-top: 5px;
+}
+.contact button{
+	height: 40px;
+	border-radius: 8px;
+	width: 140px;
+	text-align: center;	
+	background: #f7600e;
+	border: none;
+	outline: none;
+	color: #FFF;
+	margin-top: 15px;
+	float: left;
+}
+.contact .social {
+	float: right;
+}
+.contact .social i{
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 20px;
+	color: #FFF;
+	border-radius: 50%;
+	margin-top: 15px;
+	margin-left: 5px;
+}
+.contact .social i:nth-child(1){
+	background: #3b5998;
+}
+.contact .social i:nth-child(2){
+	background: #1da1f2;
+}
+.contact .social i:nth-child(3){
+	background: #dd4b39;
+}
+.contact .social i:nth-child(4){
+	background: #cd201f;
+}
+.contact .social i:nth-child(5){
+	background: #0077b5;
+}
+/*End contact*/
+/*Start footer*/
+
+footer{
+	padding: 30px;
+	background: #3b434c;
+	color: #ccc;
+}
+footer a{
+	color: inherit;
+	text-decoration: none;
+}
+footer span:first-child{
+	float: left;
+}
+footer span:last-child{
+	float: right;
+}
+}
+	
+/*End footer*/
